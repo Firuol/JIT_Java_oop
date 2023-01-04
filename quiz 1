@@ -1,0 +1,45 @@
+/*quiz 1 
+1) interface may inherit multiple interface and contains abstract method */
+// lion interface
+interface lion{
+  // Abstract methods
+  void breath();
+  void eat_meat();
+}
+
+// cow interface
+interface cow{
+  // Abstract methods
+  void breath();
+  void eat_grass();
+}
+
+// Multiple Inheritance using Interface
+class animal implements cow, lion {
+  public void breath(){
+    System.out.println("any animal can breath");
+  }
+
+  // Overridden method of lion Interface
+  public void eat_meat(){
+    System.out.println("lions eat meat");
+  }
+
+  // Overridden method of cow Interface
+  public void eat_grass(){
+    System.out.println("cow eats grass");
+  }
+}
+
+// Driver Code
+class Main {
+  public static void main(String args[]) {
+    // Creating a new object of the animal class
+    animal anim1 = new animal();
+
+    // Calling the methods of the Hybrid_Car class
+    anim1.breath();
+    anim1.eat_meat();
+    anim1.eat_grass();
+  }
+}
