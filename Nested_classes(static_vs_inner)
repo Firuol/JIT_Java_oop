@@ -1,0 +1,14 @@
+class shape{
+	static class Rectangle{
+     Rectangle() {
+			
+			System.out.println("the static nested class created successfully");
+		}	
+	}
+	class Triangle{    //non static
+		Triangle() {
+			
+			System.out.println("the non static nested class created successfully");
+		}
+	}
+	}
