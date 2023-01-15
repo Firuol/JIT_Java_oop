@@ -1,0 +1,23 @@
+class multi_constr{ // class for constructor overloading
+	double height;
+	int length;
+	double width;
+	multi_constr(){
+		System.out.println("parameter less constructor");
+	}
+	multi_constr(double height){
+		this.height=height;
+		System.out.println("double ");
+	}
+	multi_constr(double height,int length){
+		this.height=height;
+		this.length=length;
+		System.out.println("double int ");
+	}
+	multi_constr(double height,int length,double width){
+		this.height=height;
+		this.length=length;
+		this.width=width;
+		System.out.println("double int double");
+	}
+}
