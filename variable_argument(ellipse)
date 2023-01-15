@@ -1,0 +1,15 @@
+class var_arg{
+	void sum(int ...a) {
+		int sum=0;
+		for(int i=0;i<a.length;i++)
+			sum=sum+a[i];
+		System.out.println("sum of this numbers is "+ sum);
+	}
+	void multiply(int ...a) {
+		int multi=1;
+		for(int i=0;i<a.length;i++)
+			multi=multi*a[i];
+		System.out.println("product  of these numbers is "+ multi );
+	}
+	
+}
