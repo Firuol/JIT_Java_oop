@@ -1,0 +1,30 @@
+class closed_shape{
+    int x=1;
+    int y;
+    void show (){
+        System.out.println("this is the super show ");
+    }
+    String tostring(String a){
+        System.out.println("this is the method that overrides the object's method  ");
+       return a;
+    }
+}
+class Rectangle extends closed_shape{
+void show (){
+    int x =4;
+    System.out.println("this is the sub show ");
+    System.out.println(super.x);
+}
+}
+class square extends Rectangle{
+
+}
+public class Main {
+    public static void main(String[] args) {
+        Rectangle rec1= new Rectangle();
+        rec1.show();
+        closed_shape sh1=new closed_shape();
+        sh1.show();
+
+    }
+}
