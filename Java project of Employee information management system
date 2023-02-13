@@ -304,14 +304,15 @@ public class Main {
 
         while (flag) {
             System.out.println("<<<<<<<<<< WELL COME TO EMPLOYEE INFORMATION SYSTEM >>>>>>>>>>>>>>>");
-            System.out.println("HERE is OPERATIONS the SYSTEM can provide  ");
-            System.out.println("1. Add the information of new Employee ");
-            System.out.println("2. Update information of existing Employee ");
-            System.out.println("3. search an employee ");
-            System.out.println("4. Delete a fired Employee ");
-            System.out.println("5. Display all Employee ");
-            System.out.println("6. Display total number of employee of the company ");
-            System.out.println("7. EXIT ");
+            System.out.println("  HERE is OPERATIONS the SYSTEM can provide  ");
+            System.out.println("          1. Add the information of new Employee ");
+            System.out.println("          2. Update information of existing Employee ");
+            System.out.println("          3. search an employee ");
+            System.out.println("          4. Delete a fired Employee ");
+            System.out.println("          5. Display all Employee ");
+            System.out.println("          6. Display total number of employee of the company ");
+            System.out.println("          7. EXIT ");
+            System.out.println("<<<<<<<<<********************************************>>>>>>>>>>>>>>");
             Scanner scan1 = new Scanner(System.in);
 
             System.out.println("enter the number which u want to perform");
